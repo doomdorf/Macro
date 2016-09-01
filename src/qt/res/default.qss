@@ -1,0 +1,34 @@
+        QToolBar       { background: rgb(42,42,44); padding: 10px; margin-left: 18px; margin-right: 18px; border-radius: 10px; color: rgb(255,255,255); }
+        QToolButton    { background-color: rgb(42,42,44); color: white; }
+
+        QStatusBar     { background: rgb(18,18,20); color: rgb(147,149,151); }
+        QStatusBar::item {border: 0px; margin-left: 40px; }
+        QDialogButtonBox { background-color: rgb(233,127,30) }
+        QTableView#tableView {  background: white; border-radius: 10px; margin: 5px; color:rgb(42,42,44) }
+        QWidget#AddressBookPage { background-color: rgb(42,42,44); color: white;  margin: 8px; border-radius: 10px; }
+        QDialog#SendCoinsDialog { background-color: rgb(42,42,44); color: white;  margin: 8px; border-radius: 10px; }
+
+        QDialog#SignVerifyMessageDialog { background-color: rgb(42,42,44); color: white;  margin: 8px; border-radius: 10px; }
+        QDialog#SendCoinsEntry {  margin: 8px; border-radius: 10px; border: 0 }
+        QScrollArea#scrollArea {border: 0; margin: 10px; }
+
+        QProgressBar   { color: rgb(0,0,0); background: rgb(233,127,30); border-color: rgb(255,255,255); border-width: 3px; border-style: solid; }
+        QProgressBar::chunk { background: rgb(255,255,255); }
+        #ProgressBarLabel { color: rgb(255,255,255); }
+
+        QTableView#tableViewRecentTransactions{background: rgb(42,42,44); border-radius: 5px}
+        QTableView::item:selected {background: rgb(147,149,151)}
+        QMenu { background-color: rgb(18,18,20); color: rgb(92,92,94); }
+        QMenu::item:selected { color: white; }
+
+        QFrame#TransactionsFrame {background: rgb(42,42,44); border-radius: 10px }
+
+        QTabWidget::tab-bar {background: rgb(42,42,44); color: white }
+
+        QTabBar::tab:selected  { background:  rgb(42,42,44); }
+        QTabBar::tab:!selected { background:  rgb(40,40,42); }
+
+        QMenuBar       { background:transparent; color: rgb(0,255,0); }
+        QMenuBar::item    { background-color: transparent; color: rgb(92,92,94); }
+         #Topwindow { background: rgb(18,18,20);  border: 5px solid rgb(233,127,30); border-top-left-radius: 50px; } 
+        QMenuBar::item:selected { color:white; }
